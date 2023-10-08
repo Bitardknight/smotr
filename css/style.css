@@ -1,0 +1,318 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/artwork_fantasy_art_Heroes_of_Might_and_Magic_Heroes_of_Might_and_Magic_III_video_games_horse_war_archer-92263.jpg");
+
+}
+
+.wrapper_d{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/disciples.png");
+}
+
+.wrapper_dwarves{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/dwarves.png");
+}
+
+
+.wrapper_elves{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/elves.png");
+}
+
+.wrapper_undead{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/undead.png");
+}
+
+.wrapper_deamons{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/deamons.png");
+}
+
+.wrapper_shadow_magic{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/shadow_magic.png");
+}
+
+
+.wrapper_stronghold_legend{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/stronghold_legend.png");
+}
+
+.wrapper_warcraft{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url("../img/warcraft.png");
+}
+
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 50;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+
+}
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap:20px;
+	row-gap: 10px;
+}
+
+.menu__item{
+width: 200px;
+height: 100px;
+background-color: yellow;
+font-size: 30px;
+text-align: center;
+
+}
+
+.menu__link{
+	position: relative;
+	top:30px;
+}
+
+.main__container{
+	margin-top: 150px;
+	position: relative;
+	z-index: 2;
+
+}
+
+.main__container_heroes{
+	margin-top: 350px;
+	position: relative;
+	z-index: 2;
+
+}
+
+.main__container_disciples{
+	margin-top: 250px;
+	position: relative;
+	z-index: 2;
+}
+
+	.main__container_disciples::before{
+		height: 100%;
+		width: 100%;
+	position: absolute;
+	content:"";
+	z-index: -1;
+	background-color: rgb(255, 255, 255, 0.7);
+	}
+
+
+
+.main__container_castle{
+	position: relative;
+	z-index: 2;
+
+}
+
+.main__container_castle::before{
+	height: 100%;
+	width: 100%;
+position: absolute;
+content:"";
+z-index: -1;
+background-color: rgb(255, 255, 255, 0.7);
+}
+
+.main__container_rampart{
+	margin-top: 250px;
+	position: relative;
+	z-index: 2;
+
+}
+
+.main__container::before{
+	height: 100%;
+	width: 100%;
+position: absolute;
+content:"";
+z-index: -1;
+background-color: rgb(255, 255, 255, 0.7);
+}
+
+.text{
+	
+	font-size: 24px;
+
+}
+
+
+.text_1{
+	
+	font-size: 24px;
+margin: 100px 0;
+}
+
+.main__container_heroes::before{
+	height: 100%;
+	width: 100%;
+position: absolute;
+content:"";
+z-index: -1;
+background-color: rgb(255, 255, 255, 0.7);
+}
+ 
+.main__container_rampart::before{
+	height: 100%;
+	width: 100%;
+position: absolute;
+content:"";
+z-index: -1;
+background-color: rgb(255, 255, 255, 0.7);
+}
+
+.footer {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 50;
+}
+
+.footer__container{
+	
+	margin-top: 150px;
+	position: relative;
+	z-index: 2;
+
+}
+
+.download{
+width: 200px;
+height: 100px;
+background-color: green;
+font-size: 30px;
+text-align: center;
+margin:0 auto;
+}
+
+.download-button{
+	position: relative;
+	top: 30px;
+}
+
+
+.download-margin{
+	margin:50px;
+}
+
+.game{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	font-size: 30px;
+	text-align: center;
+	margin:0 auto;
+	}
+	
+	.play-button{
+		position: relative;
+		top: 30px;
+	}
+	
+	
+	.play-margin{
+		margin:50px;
+	}
+	
+
+.back{
+	
+width: 200px;
+height: 100px;
+background-color: blue;
+font-size: 30px;
+text-align: center;
+margin:0 auto;
+}
+
+.back-button{
+	position: relative;
+	top:30px;
+}
+
+
+
+
+h1{
+	font-size: 30px;
+text-align: center;
+}
+
+p{
+	margin:30px
+}
+
+.picture {
+	margin-right: 30px;
+}
